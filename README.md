@@ -26,9 +26,9 @@ Download <https://www.libsdl.org/release/SDL2-devel-2.0.14-mingw.tar.gz> (or wha
 Run `make`, or gcc by hand:
 
 ```
-PS sdl_hello> gcc src/sdl_hello.c -I..\SDL2-2.0.14\x86_64-w64-mingw32\include\SDL2 -lmingw32 -lSDL2main -lSDL2 -L..\SDL2-2.0.14\x86_64-w64-mingw32\lib
+PS sdl_hello> gcc src\sdl_hello.c -I..\SDL2-2.0.14\x86_64-w64-mingw32\include\SDL2 -lmingw32 -lSDL2main -lSDL2 -L..\SDL2-2.0.14\x86_64-w64-mingw32\lib
 ```
 
 ### Running
 
-Ensure `SDL2.dll` is in the `.exe` directory before running. Make sure to use the correct 32 or 64 bit dll.
+Ensure `SDL2.dll` is in the `sdl_app.exe` directory before running. Make sure to use the correct 32 or 64 bit dll.
