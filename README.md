@@ -1,4 +1,4 @@
-# `sdl_hello`
+# sdl\_hello
 
 ## Windows
 
